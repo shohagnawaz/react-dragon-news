@@ -19,16 +19,7 @@ const LeftSideNav = () => {
                         to={`/category/${category.id}`}
                     >{category.name}</Link>)
                 }
-            </div>
-            <div className="card w-80 bg-base-100 shadow-xl">
-                <figure className="px-6 pt-10">
-                    <img src="" />
-                </figure>
-                <div className="card-body items-center text-center">
-                    <h2 className="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>                    
-                </div>
-            </div>
+            </div>           
         </div>
     );
 };
