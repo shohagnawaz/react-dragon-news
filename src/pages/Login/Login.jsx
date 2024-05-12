@@ -9,11 +9,9 @@ const Login = () => {
     const navigate = useNavigate();
   const handleLogin = (e) => {
     e.preventDefault();
-    console.log(e.currentTarget);
     const form = new FormData(e.currentTarget);
     const email = form.get("email");
     const password = form.get("password");
-    console.log(email, password);
     // signIn user
     loginUser(email, password)
     .then(result => {

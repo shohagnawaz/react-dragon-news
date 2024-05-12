@@ -8,7 +8,6 @@ import NewsCart from "./NewsCart";
 
 const Home = () => {
     const news = useLoaderData();
-    console.log(news)
     return (
         <div>
             <Header></Header>
